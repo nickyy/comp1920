@@ -1,0 +1,16 @@
+ULYSSES by James Joyce published 1922 born 1882
+THE GREAT GATSBY by F. Scott Fitzgerald published 1925 born 1896
+ERROR1 by Oopsy Daisy published 1999 born 2012
+Dates such as 2000/10/31 are spooooooky
+A PORTRAIT OF THE ARTIST AS A YOUNG MAN by James Joyce published 1916 born 1882
+LOLITA by Vladimir Nabokov published 1955 born 1899
+MISTAKE2 by Some One published 1940 born 1970
+This is a sillly book written in 2000-12-25
+BRAVE NEW WORLD by Aldous Huxley published 1932 born 1894
+ERROR3 by Miss Take published born 1988
+2015-04-31 April doesn't have 31 days
+THE CATCHER IN THE RYE by J.D. Salinger published 1951 born 1919
+Testing 1990/01/31 over and over
+Invalid date format 2010/02/31 february never has 31 days
+UHOH4 by Who Ever published 1995 born
+Another invalid date 2010-06-31

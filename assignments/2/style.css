@@ -1,0 +1,238 @@
+/* line 17, ../../../../../../../Program Files (x86)/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../../Program Files (x86)/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../Program Files (x86)/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../Program Files (x86)/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../Program Files (x86)/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../Program Files (x86)/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../Program Files (x86)/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../Program Files (x86)/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../Program Files (x86)/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+
+
+
+/* end of css reset */
+
+
+
+
+/* line 27, ../sass/style.scss */
+.site {
+    width: 60%;
+    margin: auto;
+    font-family: arial, helvetica, sans-serif;
+    line-height: 1.2em;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background: #4f4f5D;
+}
+
+/* line 38, ../sass/style.scss */
+.header {
+    background: #869dc7;
+    padding: 20px 0;
+}
+
+/* line 42, ../sass/style.scss */
+.main {
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+/* line 46, ../sass/style.scss */
+.main {
+  background: white;
+}
+
+.main a:hover {
+    font-style: italic;
+}
+
+.main ul {
+    list-style: disc;
+    margin: 10px 35px;
+}
+
+.main .file label {
+    margin: 10px;
+}
+
+.main .file {
+    margin: 10px;
+}
+
+.main #upload {
+    margin: 15px;
+    width: 100px;
+}
+
+.main .emailFig, .main .thumbnail {
+    padding: 5px 15px;
+}
+
+.main h2 {
+    padding: 30px;
+}
+
+.main.uhoh p {
+    text-align: center;
+}
+
+.login, .main p {
+    padding: 10px 0;
+    margin-left: 15px;
+}
+
+/* line 51, ../sass/style.scss */
+nav .links {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  background: #869dc7;
+}
+/* line 59, ../sass/style.scss */
+nav .links a {
+  color: white;
+  font-weight: bold;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+/* line 65, ../sass/style.scss */
+nav .links a:link {
+  color: darkblue;
+}
+/* line 68, ../sass/style.scss */
+nav .links a:visited {
+  color: yellow;
+}
+/* line 71, ../sass/style.scss */
+nav .links a:hover {
+  background: #00b4f0;
+}
+/* line 74, ../sass/style.scss */
+nav .links a:active {
+  color: red;
+}
+
+/* line 81, ../sass/style.scss */
+.footer {
+  background: #869dc7;
+    text-align: center;
+    font-size: 0.7em;
+}
+
+/* line 85, ../sass/style.scss */
+h1, h2 {
+  padding: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* line 91, ../sass/style.scss */
+h1 {
+  font-size: 1.6em;
+}
+
+/* line 95, ../sass/style.scss */
+h2 {
+  font-size: 1.3em;
+}
+
+.error {
+    color: red;
+    font-style: italic;
+}
+
+.success {
+    color: green;
+    font-style: italic;
+}
+
+@media only screen and (max-width: 800px) {
+  /* line 100, ../sass/style.scss */
+  nav .links {
+    background: red;
+    justify-content: space-around;
+  }
+}
+@media only screen and (max-width: 500px) {
+  /* line 107, ../sass/style.scss */
+  .site {
+    width: 100%;
+  }
+
+  /* line 110, ../sass/style.scss */
+  nav .links {
+    background: orange;
+    flex-direction: column;
+    align-items: center;
+  }
+}
